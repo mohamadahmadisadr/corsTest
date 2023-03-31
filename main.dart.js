@@ -38653,7 +38653,7 @@ s.e=new A.dA(B.j5,null,null,null,s.$ti.i("dA<1>"))
 s.wT()},
 aZ(a){var s,r=this
 r.bs(a)
-if(a.c!==r.a.c){if(r.d!=null){r.d=null
+if(a.c!=r.a.c){if(r.d!=null){r.d=null
 s=r.e
 s===$&&A.h()
 r.e=new A.dA(B.j5,s.b,s.c,s.d,s.$ti)}r.wT()}},
@@ -38664,13 +38664,12 @@ s===$&&A.h()
 return r.d.$2(a,s)},
 n(){this.d=null
 this.aU()},
-wT(){var s,r=this,q=r.a
-q.toString
-s=r.d=new A.C()
-q.c.dv(new A.VY(r,s),new A.VZ(r,s),t.H)
+wT(){var s,r=this,q=r.a.c
+if(q!=null){s=r.d=new A.C()
+q.dv(new A.VY(r,s),new A.VZ(r,s),t.H)
 q=r.e
 q===$&&A.h()
-if(q.a!==B.dh)r.e=new A.dA(B.uB,q.b,q.c,q.d,q.$ti)}}
+if(q.a!==B.dh)r.e=new A.dA(B.uB,q.b,q.c,q.d,q.$ti)}}}
 A.VY.prototype={
 $1(a){var s=this.a
 if(s.d===this.b)s.aq(new A.VX(s,a))},
@@ -44103,21 +44102,32 @@ s.l(0,"Content-Type","application/json")
 this.b5()},
 L(a){var s=null,r=A.a0T("test")
 return new A.pE(new A.mW(r,new A.DW(s,s,1/0,56),s),A.I4(new A.kZ(this.ja(),new A.X5(this),s,t.fN),s,s),s)},
-ja(){var s=0,r=A.a8(t.H),q=this,p,o
+ja(){var s=0,r=A.a8(t.H),q,p=this,o,n,m
 var $async$ja=A.a9(function(a,b){if(a===1)return A.a5(b,r)
-while(true)switch(s){case 0:s=2
+while(true)switch(s){case 0:n=p.d
+s=n!=null?3:5
+break
+case 3:s=6
 return A.af(A.abz("GET",A.UG("https://app.kanoon.ir/Api/home/apis")).lk(0),$async$ja)
-case 2:p=b
-s=p.b===200?3:5
+case 6:o=b
+s=o.b===200?7:9
 break
-case 3:o=A
-s=6
-return A.af(B.z.Mc(p.w),$async$ja)
-case 6:q.aq(new o.X6(q,b))
-s=4
+case 7:m=A
+s=10
+return A.af(B.z.Mc(o.w),$async$ja)
+case 10:p.aq(new m.X6(p,b))
+s=8
 break
-case 5:A.tT(p.c)
-case 4:return A.a6(null,r)}})
+case 9:A.tT(o.c)
+q=null
+s=1
+break
+case 8:s=4
+break
+case 5:q=n
+s=1
+break
+case 4:case 1:return A.a6(q,r)}})
 return A.a7($async$ja,r)}}
 A.X5.prototype={
 $2(a,b){var s=this.a.d
