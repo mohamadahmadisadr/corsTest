@@ -45864,7 +45864,7 @@ c=a3.ax
 c===$&&A.f()
 b=l==null?null:l
 if(b==null)b=A.bL(a3.b.i(0,"content-type"))
-a=A.a6_(a0,null,j,b,null,k,f,m,c,e,"GET".toUpperCase(),null,null,"home/apis",d,o,g,a3.d,a3.as,a3.at,i,a3.c,n,h)
+a=A.a6_(a0,null,j,b,null,k,f,m,c,e,"GET".toUpperCase(),null,null,"/home/apis",d,o,g,a3.d,a3.as,a3.at,i,a3.c,n,h)
 a0=p.b
 if(a0==null){a0=a2.rz$.iR$
 a0===$&&A.f()}a0=a.N2(a0)
@@ -45885,18 +45885,21 @@ au(){return new A.DR(B.l)}}
 A.yi.prototype={
 N(a){return new A.pe(new A.pr(null),B.cl,null)}}
 A.DR.prototype={
-aS(){var s,r,q=this.a
-q.toString
+aS(){var s,r,q,p=this.a
+p.toString
 s=new A.JO($,new A.xA(A.a([B.tG],t.EM)),$,new A.Ig(A.ahm()),!1)
 r=A.aaU()
 s.rz$=r
 s.zM$=new A.Ir(A.aC(t.Ff))
+q=r.b
+q===$&&A.f()
+q.l(0,"Sec-Fetch-Mode","no-cors")
 r=r.b
 r===$&&A.f()
-r.l(0,"Sec-Fetch-Mode","no-cors")
+r.l(0,"Content-Type","application/json")
 r=new A.Za(s)
 r.b="https://app.kanoon.ir/Api"
-q.c=r
+p.c=r
 this.bb()},
 N(a){var s=null,r=A.a2F("test")
 return new A.qh(new A.nu(r,new A.EL(s,s,1/0,56),s),A.J0(new A.ln(this.fu(),new A.YH(this),s,t.fN),s,s),s)},
