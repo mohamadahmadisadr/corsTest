@@ -45891,6 +45891,9 @@ s=new A.JO($,new A.xA(A.a([B.tG],t.EM)),$,new A.Ig(A.ahm()),!1)
 r=A.aaU()
 s.rz$=r
 s.zM$=new A.Ir(A.aC(t.Ff))
+r=r.b
+r===$&&A.f()
+r.l(0,"Sec-Fetch-Mode","no-cors")
 r=new A.Za(s)
 r.b="https://app.kanoon.ir/Api"
 q.c=r
