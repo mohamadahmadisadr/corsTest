@@ -45863,7 +45863,7 @@ m.a=A.aM(["userId","439642","privateKey","app2023"],l,l)
 A.aM(["lat",33.4,"lon",94.04,"exclude","hourly,daily","appid","6fdf176972f595769cc40ea48c8f9c3d"],l,t.K)
 p=A.a4M(null)
 o=t.z
-n=A.ad5(A.aM(["content-type","application/json","Referer","mohamadahmadisadr.github.io","Referrer-Policy","no-referrer-when-downgrade","accept","application/json"],l,o))
+n=A.ad5(A.aM(["content-type","application/json","Referer","app.kanoon.ir","Referrer-Policy","no-referrer-when-downgrade","accept","application/json"],l,o))
 n.a="GET"
 p.tQ(0,"https://app.kanoon.ir/Api/home/apis",null,null,null,n,null,o).aG(new A.YJ(m,q),t.P)
 return A.a2(null,r)}})
