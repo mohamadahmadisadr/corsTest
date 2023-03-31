@@ -45880,30 +45880,15 @@ au(){return new A.DR(B.l)}}
 A.yi.prototype={
 N(a){return new A.pe(new A.pr(null),B.cl,null)}}
 A.DR.prototype={
-aS(){var s,r,q,p="application/json",o=this.a
-o.toString
+aS(){var s,r,q=this.a
+q.toString
 s=new A.JO($,new A.xA(A.a([B.tG],t.EM)),$,new A.Ig(A.ahk()),!1)
 r=A.aaS()
 s.rz$=r
 s.zM$=new A.Ir(A.aC(t.Ff))
-q=r.b
-q===$&&A.f()
-q.l(0,"Accept",p)
-q=r.b
-q===$&&A.f()
-q.l(0,"Content-Type",p)
-q=r.b
-q===$&&A.f()
-q.l(0,"Access-Control-Allow-Origin","*")
-q=r.b
-q===$&&A.f()
-q.l(0,"Access-Control-Allow-Methods","GET, POST, PUT")
-r=r.b
-r===$&&A.f()
-r.l(0,"Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept")
 r=new A.Z8(s)
 r.b="https://app.kanoon.ir/Api"
-o.c=r
+q.c=r
 this.bb()},
 N(a){var s=null,r=A.a2D("test")
 return new A.qh(new A.nu(r,new A.EL(s,s,1/0,56),s),A.J0(new A.ln(this.eY(),new A.YH(),s,t.hU),s,s),s)},
